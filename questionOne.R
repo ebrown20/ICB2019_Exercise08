@@ -32,5 +32,6 @@ for(i in 1:size) {
 plot(x_vals, MSU_scores, type = "l", col = "blue", xlab = "Time in Minutes", ylab = "Points")
 #Plot UW scores in black
 lines(x_vals, UW_scores, type = "l", col = "black")
-# Add a legend
+# Add a title and a legend
+title("MSU scores vs UW scores")
 legend(25,25,legend=c("MSU scores","UW scores"),col= c("blue","black"), lty = 1)
